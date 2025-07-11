@@ -1,0 +1,5 @@
+rosi_fleet_adapter:
+  ros__parameters:
+    use_sim_time: 'false'
+    headless: 'false'   
+    server_uri: "" # API server URI (not used in this example)
