@@ -1,6 +1,6 @@
 # fleet_adapter_demo
 
-This package to test the custom fleet adapter.
+This package aims to test the custom [fleet_adapter](https://github.com/Thales-Silva/fleet_adapter).
 
 ## 1. Installation
 
@@ -12,8 +12,8 @@ sudo apt install ros-jazzy-rmf-dev
 Clone all this repositories to some workspace inside the robot (let it be ```some_ws``` as an example), then build it with the shell commands
 ```bash
 cd ~/some_ws/src
-git clone https://gitlab.com/gscar-coppe-ufrj/projeto-quadrupedes/fleet_adapter.git
-git clone https://gitlab.com/gscar-coppe-ufrj/projeto-quadrupedes/fleet_adapter_demo.git
+git clone https://github.com/Thales-Silva/fleet_adapter_demo.git
+git clone https://github.com/Thales-Silva/fleet_adapter.git
 cd ~/some_ws
 colcon build --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 source ~/some_ws/install/setup.bash
